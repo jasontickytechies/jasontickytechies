@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Digital Assistant</title>
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://kit.fontawesome.com/a7b46a5370.js" crossorigin="anonymous"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster Two">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glory">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+	          <link rel="stylesheet" href="main.css">
+        </head>
+    <body>
+        <!--HEADER-->
+           
+        <!--NAVBAR-->
+            <section>
+                <header>
+                    <nav class="bar3">
+                        <ul style="list-style: none;">
+                           <div class="home-official">
+                            <li class="active">
+                              <a href="#home">
+                                <ion-icon name="home"></ion-icon>
+                                <span>Home</span>
+                              </a>
+                            </li>
+                           </div>
+                        </ul>
+                        <div class="menu" style="margin-right: 50px; font-size: 20px;">
+                         <ul>
+                            <li>
+                                <a href="/">
+                                  <ion-icon name="calendar-outline" class="WIP"></ion-icon>
+                                  <span>W.I.P</span>
+                                </a>
+                              </li>
+                            <li>
+                                <a href="/Project-Display/STDL.0/Task.html">
+                                  <ion-icon name="list-outline"></ion-icon>
+                                  <span>To-do list</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/Project-Display/Translator/Translator.html">
+                                  <ion-icon name="language-outline"></ion-icon>
+                                  <span>Translator</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/Project-Display/SC/Calculator.html">
+                                  <ion-icon name="calculator-outline"></ion-icon>
+                                  <span>Calculator</span>
+                                </a>
+                              </li>
+                        </div>
+                        <button class="hamburger">
+                            <span class="material-icons">menu</span>
+                        </button>
+                    </nav>
+                    <div class="mobile-menu">
+                        <a href="/Project-Display/STDL.0/Task.html">To-do list</a>
+                        <a href="#">Calendar Events</a>
+                        <a href="/Project-Display/Translator/Translator.html">Translator</a>
+                        <a href="/Project-Display/SC/Calculator.html">Calculator</a>
+                        <a href="/Project-Display/Main Structure/index.html">Home</a>
+                    </div>
+                </header>
+            </section>
+            <section>
+              <div class="bg-primary text-center p-5" id="home">
+                  <div class="d-inline-flex justify-content-around align-items-center">
+                      <img src="assets/Icon-1.png" alt="Icon 1" class="img-fluid" width="10%">
+                      <h1 class="mb-7 display-1 fw-bold" style="font-family: 'Nunito', serif; color: rgb(237, 237, 13);" id="Home">Digital Assistant</h1>
+                      <img src="/Project-Display/assets/Icon-2.png" alt="Icon 2" class="img-fluid" width="8%">
+                  </div>
+                  <p class="lead fs-2 text-light" style="font-family: 'Glory', serif;">Simplify your day with this digital assistant!</p>
+                  <a href="" class="btn text-light fw-bold fs-5" style="margin-top: 15px; background-color: rgb(255, 106, 0);">Explore our features!</a>
+              </div>
+            </section>
+            <!--SIDEBAR-->
+            <div class="sidebar close">
+                <div class="logo-details">
+                    <i class='bx bx-sidebar'></i>
+                  <span class="logo_name" style="margin-left: 20px;">TVSC</span>
+                </div>
+                <ul class="nav-links">
+                  <li class="active">
+                    <a href="#">
+                      <i class='bx bx-moon'></i>
+                      <span class="link_name">Relax</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Enjoy your rest!</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="iocn-link">
+                      <a href="#">
+                        <i class='bx bx-extension'></i>
+                        <span class="link_name">Specifics</span>
+                      </a>
+                      <i class='bx bxs-chevron-down arrow' ></i>
+                    </div>
+                    <ul class="sub-menu">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Specifics</a></li>
+                      <li><a href="#" style="margin-top: -35px;">Optimization tools</a></li>
+                      <li><a href="#" style="margin-top: -35px;">Exploration tools</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="iocn-link">
+                      <a href="#">
+                        <i class='bx bx-calendar'></i>
+                        <span class="link_name">Calendar</span>
+                      </a>
+                      <i class='bx bxs-chevron-down arrow' ></i>
+                    </div>
+                    <ul class="sub-menu">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Calendar</a></li>
+                      <li><a href="#" style="margin-top: -35px;">Update In Progress!</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="iocn-link">
+                      <a href="#">
+                        <i class='bx bx-cloud'></i>
+                        <span class="link_name">Weather</span>
+                      </a>
+                      <i class='bx bxs-chevron-down arrow' ></i>
+                    </div>
+                    <ul class="sub-menu">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Weather Forecast</a></li>
+                      <li><a href="#" style="margin-top: -35px;"></a> Displays Weather of Chosen location!</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class='bx bx-notepad'></i>
+                      <span class="link_name" >Notes</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Notes</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                        <i class='bx bx-book-bookmark'></i>
+                      <span class="link_name">English Dictionary</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Dictionary</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                        <i class='bx bxs-calculator'></i>
+                      <span class="link_name">Scientific Calculator</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Scientific Calculator</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                        <i class='bx bxs-microphone-alt'></i>
+                      <span class="link_name">Speech-to-Text</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Speech-to-Text</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                        <i class='bx bx-joystick'></i>
+                      <span class="link_name">Simple Game</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#" style="margin-top: -35px;">Simple Game</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                <div class="profile-details">
+                  <div class="profile-content">
+                  </div>
+                  <div class="name-job">
+                    <div class="profile_name">Extended Features</div>
+                    <div class="job" style="color: crimson;">COMING SOON!</div>
+                  </div>
+                  <i class='bx bx-log-out' ></i>
+                </div>
+              </li>
+            </ul>
+              </div>
+              <section class="home-section">
+                <div class="home-content" >
+                  <i class="fa-regular fa-hand-pointer box-menu">
+                  <span class="text" style="font-size: 1.5vw;">Click me!</span>
+                  </i>
+                </div>
+              </section>
+              <section class="home-section" style="left: 5px; margin-top: 60px;">
+                <div class="home-content hovering" >
+                  <i class="fa-solid fa-arrow-pointer hover-menu"></i>
+                  </i>
+                  <span class="text hove" style="font-size: 1vw;">Hover!</span>
+                </div>
+              </section>
+        <!--ADDITIONALS-->
+            <!--Educational tools-->
+          <section style="margin-top: -150px;">
+            <section style="margin-top: 80px; margin-left: 20px;">
+                    <div class="row" style="align-items: center; justify-content: space-evenly; margin-top: 30px; margin-bottom: 20px;">
+                        <h2 class="display-4 fw-bold text-primary" style="font-family: 'Nunito', serif; text-align: center;">Core School Components</h2>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://sekolahciputra.managebac.com/student/timetables"><img class="card-img-top" src="/Project-Display/assets/Managebac-icon (2).png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">ManageBac</h5>
+                                <h6 class="card-subtitle mb-2">Multi Operations Center</h6>
+                                <i class="fa-solid fa-globe" style="color: rgba(23, 215, 23, 0.564);">
+                                    <a href="https://sekolahciputra.managebac.com/student/tasks_and_deadlines" class="btn btn-success" style="color:white; margin-top: 0px;" target="_blank">Visit</a> 
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-warning text-white imagecrds">
+                            <a target="_blank" href="https://classroom.google.com/u/0/h"><img class="card-img-top" src="/Project-Display/assets/Google Classroom-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Google Classroom</h5>
+                                <h6 class="card-subtitle mb-2">Specialised Task Platform</h6>
+                                <i class="fa-solid fa-school" style="color: crimson;">
+                                    <a href="https://classroom.google.com/u/0/a/not-turned-in/all" class="btn btn-danger" style="color:white;" target="_blank">Visit</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-danger text-white imagecrds">
+                            <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><img class="card-img-top" src="/Project-Display/assets/Gmail-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Gmail</h5>
+                                <h6 class="card-subtitle mb-2">Standard Events Receiver</h6>
+                                <i class="fa-solid fa-envelopes-bulk" style="color: yellow;">
+                                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="btn btn-warning izon" style="color:white;" target="_blank">Check</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-success text-white imagecrds">
+                            <a target="_blank" href="https://app.bridge-u.com"><img class="card-img-top" src="/Project-Display/assets/Bride-U-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bridge-U</h5>
+                                <h6 class="card-subtitle mb-2">Strategic & Tactical Uni-Planner</h6>
+                                <i class="fa-solid fa-building-columns" style="color: crimson;">
+                                <a href="https://app.bridge-u.com/#" class="btn btn-danger izon" style="color:white;" target="_blank">Recon</a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-section" style="left: 5px; margin-top: 60px;">
+                  <div class="home-content hovering" >
+                    <i class="fa-solid fa-arrow-pointer hover-menu"></i>
+                    </i>
+                    <span class="text hove" style="font-size: 1vw;">Hover!</span>
+                  </div>
+                </section>
+                    <!--Google workspace-->
+                <section style="margin-top: -160px;  margin-left: 20px;">
+                    <div class="row" style="align-items: center; justify-content: space-evenly; margin-top: 30px; margin-bottom: 20px;">
+                        <h2 class="display-4 fw-bold text-danger" style="font-family: 'Nunito', serif; text-align: center;">Google Workspace</h2>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://docs.google.com/"><img class="card-img-top" src="/Project-Display/assets/google-docs.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Google Docs</h5>
+                                <h6 class="card-subtitle mb-2">Document writer</h6>
+                                <i class="fa-solid fa-file-word"style="color: rgba(23, 215, 23, 0.564);">
+                                <a href="https://docs.google.com/" class="btn btn-success ison" style="color:white;" target="_blank">Write</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-success text-white imagecrds">
+                            <a target="_blank" href="https://docs.google.com/spreadsheets/"><img class="card-img-top" src="/Project-Display/assets/google-sheets-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Google Sheets</h5>
+                                <h6 class="card-subtitle mb-2">Data sheets</h6>
+                                <i class="fa-solid fa-file-excel" style="color: rgb(7, 158, 240)">
+                                <a href="https://docs.google.com/spreadsheets/" class="btn btn-primary ison" style="color:white;" target="_blank">Note</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-warning text-white imagecrds">
+                            <a target="_blank" href="https://docs.google.com/presentation/"><img class="card-img-top" src="/Project-Display/assets/google-slides-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Google Slides</h5>
+                                <h6 class="card-subtitle mb-2">Slides creation</h6>
+                                <i class="fa-solid fa-file-powerpoint" style="color: crimson;">
+                                <a href="https://docs.google.com/presentation/" class="btn btn-danger ison" style="color:white;" target="_blank">Create</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-danger text-white imagecrds">
+                            <a target="_blank" href="https://drive.google.com/"><img class="card-img-top" src="/Project-Display/assets/google-drive-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Google Drive</h5>
+                                <h6 class="card-subtitle mb-2">Standard Google Application</h6>
+                                <i class="fa-brands fa-google-drive" style="color: yellow;">
+                                <a href="https://drive.google.com/" class="btn btn-warning ison" style="color:white;" target="_blank">Use</a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-section" style="left: 5px; margin-top: 60px;">
+                  <div class="home-content hovering" >
+                    <i class="fa-solid fa-arrow-pointer hover-menu"></i>
+                    </i>
+                    <span class="text hove" style="font-size: 1vw;">Hover!</span>
+                  </div>
+                </section>
+                    <!--Development-->
+                <section style="margin-top: -160px;  margin-left: 20px;">
+                    <div class="row" style="align-items: center; justify-content: space-evenly; margin-top: 30px; margin-bottom: 20px;">
+                        <h2 class="display-4 fw-bold text-success" style="font-family: 'Nunito', serif; text-align: center;">Personal Courses</h2>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://us04web.zoom.us/j/8615539155?pwd=ZFVVc1J2Q3hyeHkxSEF1K3pLYjdwQT09"><img class="card-img-top" src="/Project-Display/assets/Coding-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Programming</h5>
+                                <h6 class="card-subtitle mb-2">Tickytechies Course</h6>
+                                <i class="fa-solid fa-laptop-code ipc">
+                                <a href="https://us04web.zoom.us/j/8615539155?pwd=ZFVVc1J2Q3hyeHkxSEF1K3pLYjdwQT09" class="btn btn-success ibon" style="color:white;" target="_blank">Join meeting</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://us04web.zoom.us/j/2125794701?pwd=c2NKbTBmaVJPTTVpZi9vT2k4SGNCQT09"><img class="card-img-top" src="/Project-Display/assets/Piano-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Piano Private</h5>
+                                <h6 class="card-subtitle mb-2">Mr James (30 min session)</h6>
+                                <i class="fa-solid fa-music ipc">
+                                <a href="https://us04web.zoom.us/j/2125794701?pwd=c2NKbTBmaVJPTTVpZi9vT2k4SGNCQT09" class="btn btn-success ibon" style="color:white;" target="_blank">Join meeting</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://us04web.zoom.us/j/7570540688?pwd=M1RmQ21vY0pERWtyNnlFMXlKNDMxQT09"><img class="card-img-top" src="/Project-Display/assets/Maths1-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Private Mathematics</h5>
+                                <h6 class="card-subtitle mb-2">Ms Tere (1 hour session)</h6>
+                                <i class="fa-solid fa-calculator ipc">
+                                <a href="https://us04web.zoom.us/j/7570540688?pwd=M1RmQ21vY0pERWtyNnlFMXlKNDMxQT09" class="btn btn-success ibon" style="color:white;" target="_blank">Join meeting</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://us05web.zoom.us/j/8180656922?pwd=Tit5Y0R6aW5iaEVnUk9UYytaZERvUT09"><img class="card-img-top" src="/Project-Display/assets/Maths2-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Extended Mathematics</h5>
+                                <h6 class="card-subtitle mb-2">Eduvisi (1 hour 30min session)</h6>
+                                <i class="fa-solid fa-calendar-xmark ipc">
+                                <a href="https://us05web.zoom.us/j/8180656922?pwd=Tit5Y0R6aW5iaEVnUk9UYytaZERvUT09" class="btn btn-success ibon" style="color:white;" target="_blank">Join meeting</a>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white imagecrds">
+                            <a target="_blank" href="https://us02web.zoom.us/j/6777070859?pwd=U1RQZGlJazdiRStBQ1BnNXVSZnVEZz09"><img class="card-img-top" src="/Project-Display/assets/Mandarin-icon.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Mandarin</h5>
+                                <h6 class="card-subtitle mb-2">Laoshi Yulisa (1 hour session) </h6>
+                                <i class="fa-solid fa-language ipc">
+                                <a href="https://us02web.zoom.us/j/6777070859?pwd=U1RQZGlJazdiRStBQ1BnNXVSZnVEZz09" class="btn btn-success ibon" style="color:white;" target="_blank">Join meeting</a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+          </section>
+          <section class="home-section" style="left: 5px; margin-top: 60px;">
+            <div class="home-content hovering" >
+              <i class="fa-solid fa-arrow-pointer hover-menu"></i>
+              </i>
+              <span class="text hove" style="font-size: 1vw;">Hover!</span>
+            </div>
+          </section>
+            <!--Footer-->
+            <section id="more-about">
+                <div>
+                <footer class="bg-primary text-center text-white">
+                  <div class="container p-4 pb-0">
+                    <section class="mb-4">
+                      <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #060ef9;"
+                        href=""
+                        role="button"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                      <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #f1250a;"
+                        href=""
+                        role="button"
+                        ><i class="fab fa-google"></i
+                      ></a>
+                      <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #f60b3e;"
+                        href=""
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                      <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #3505f6;"
+                      href=""
+                      role="button"
+                      ><i class="fab fa-github"></i ></a>
+                    </section>
+                  </div>
+                  <div class="text-center p-3" style="background-color: rgba(13, 143, 235, 0.822);">
+                    © 2020 Copyright:
+                    <a class="text-white" href="">TVSC</a>
+                  </div>
+                </footer>
+              </div>
+              </section>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="main.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+        </body>
+</html>
