@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headline{
+    color: blue;
+}
+.headline .show{
+    color: rgb(255, 0, 0);
+}

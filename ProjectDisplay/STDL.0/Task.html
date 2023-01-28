@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a7b46a5370.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster Two">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glory">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="/Project-Display/Main Structure/main.css">
+        <link rel="stylesheet" href="/Project-Display/Main Structure/2main.css">
+        <link rel="stylesheet" href="Task.css" />
+        <title>To-do list</title>
+    </head>
+    <body>
+      <section>
+        <div class="bg-primary text-center p-5" id="home">
+            <div class="d-inline-flex justify-content-around align-items-center">
+                <img src="/Project-Display/assets/Icon-1.png" alt="Icon 1" class="img-fluid" width="10%">
+                <h1 class="mb-7 display-1 fw-bold text-danger" style="font-family: 'Nunito', serif;" id="Home">Digital Assistant</h1>
+                <img src="/Project-Display/assets/Icon-2.png" alt="Icon 2" class="img-fluid" width="8%">
+            </div>
+            <p class="lead fs-2 text-light" style="font-family: 'Glory', serif;">Simplify your day with this digital assistant!</p>
+            <a href="" class="btn btn-danger text-light fw-bold fs-5" style="margin-top: 15px;">Explore our features!</a>
+        </div>
+    </section>
+<!--NAVBAR-->
+    <section>
+      <header>
+          <nav class="bar3">
+              <ul style="list-style: none;">
+                <div class="home-official">
+                  <li class="active">
+                    <a href="/Project-Display/Main Structure/index.html">
+                      <ion-icon name="home"></ion-icon>
+                      <span>Home</span>
+                    </a>
+                  </li>
+                </div>
+              </ul>
+              <div class="menu" style="margin-right: 50px; font-size: 20px;">
+              <ul>
+                  <li>
+                      <a href="/">
+                        <ion-icon name="calendar-outline" class="WIP" style="color: crimson;"></ion-icon>
+                        <span style="color: crimson;">W.I.P</span>
+                      </a>
+                    </li>
+                  <li class="active">
+                      <a href="/Project-Display/STDL.0/Task.html">
+                        <ion-icon name="list-outline"></ion-icon>
+                        <span>To-do list</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/Project-Display/Translator/Translator.html">
+                        <ion-icon name="language-outline"></ion-icon>
+                        <span>Translator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/Project-Display/SC/Calculator.html">
+                        <ion-icon name="calculator-outline"></ion-icon>
+                        <span>Calculator</span>
+                      </a>
+                    </li>
+              </div>
+              <button class="hamburger">
+                  <span class="material-icons">menu</span>
+              </button>
+          </nav>
+          <div class="mobile-menu">
+            <a href="#">Calendar Events</a>
+            <a href="/Project-Display/Translator/Translator.html">Translator</a>
+            <a href="/Project-Display/SC/Calculator.html">Calculator</a>
+            <a href="/Project-Display/Main Structure/index.html">Home</a>
+          </div>
+      </header>
+    </section>
+      <!--SIDEBAR-->
+      <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bx-sidebar'></i>
+          <span class="logo_name" style="margin-left: 20px;">TVSC</span>
+        </div>
+        <ul class="nav-links">
+          <li class="active">
+            <a href="#">
+              <i class='bx bx-moon'></i>
+              <span class="link_name">Relax</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Enjoy your rest!</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-extension'></i>
+                <span class="link_name">Specifics</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Specifics</a></li>
+              <li><a href="#" style="margin-top: -35px;">Optimization tools</a></li>
+              <li><a href="#" style="margin-top: -35px;">Exploration tools</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-calendar'></i>
+                <span class="link_name">Calendar</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Calendar</a></li>
+              <li><a href="#" style="margin-top: -35px;">Update In Progress!</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-cloud'></i>
+                <span class="link_name">Weather</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Weather Forecast</a></li>
+              <li><a href="#" style="margin-top: -35px;"></a> Displays Weather of Chosen location!</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-notepad'></i>
+              <span class="link_name" >Notes</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Notes</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-book-bookmark'></i>
+              <span class="link_name">English Dictionary</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Dictionary</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bxs-calculator'></i>
+              <span class="link_name">Scientific Calculator</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Scientific Calculator</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bxs-microphone-alt'></i>
+              <span class="link_name">Speech-to-Text</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Speech-to-Text</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-joystick' style="color: #05e7f7;"></i>
+              <span class="link_name">Simple Game</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#" style="margin-top: -35px;">Simple Game</a></li>
+            </ul>
+          </li>
+          <li>
+        <div class="profile-details">
+          <div class="profile-content">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Extended Features</div>
+            <div class="job" style="color: crimson;">COMING SOON!</div>
+          </div>
+          <i class='bx bx-log-out' ></i>
+        </div>
+      </li>
+    </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-content" >
+          <i class="fa-regular fa-hand-pointer box-menu">
+          <span class="text" style="font-size: 1.5vw;">Click me!</span>
+          </i>
+        </div>
+      </section>
+      <section class="home-section" style="left: 5px; margin-top: 60px;">
+        <div class="home-content hovering" >
+          <i class="fa-solid fa-arrow-pointer hover-menu"></i>
+          </i>
+          <span class="text hove" style="font-size: 1.5vw;">Hover!</span>
+        </div>
+      </section>
+      </section>
+      <!--TO-DO List-->
+    <section class="Primordial-tasks" style="margin-top: -300px;">
+      <div class="container">
+        <h1 class="heading" style="font-family: Ubuntu, sans-serif; color: var(--heading-color); font-weight: bold;">To-do list</h1>
+        <div class="tasks-wrapper">
+          <div class="delete">
+            <ion-icon name="trash-outline" style="margin-top: 0px;"></ion-icon>
+          </div>
+        </div>
+        <div class="add-wrapper">
+          <form action="" id="add-task-form">
+            <div class="details">
+              <input type="text" id="title" placeholder="Task name here" />
+              <textarea
+                id="description"
+                placeholder="Task description here"
+              ></textarea>
+            </div>
+            <div class="footer">
+              <div class="info">
+                <label for="date" style="border: 3px solid var(--red-text-color)">
+                  <ion-icon name="calendar-outline" style="margin-top: 0px; color: var(--red-text-color);"></ion-icon>
+                  <input type="date" name="" id="date" />
+                  <span style="color: var(--red-text-color); font-family: Nunito, sans-serif;">due date</span>
+                </label>
+                <label for="time" style="border: 3px solid var(--blue-text-color)">
+                  <ion-icon name="time-outline" style="margin-top: 0px; color: var(--blue-text-color);"></ion-icon>
+                  <input type="time" name="" id="time" />
+                  <span style="color: var(--blue-text-color); font-family: Nunito, sans-serif;">due time</span>
+                </label>
+              </div>
+              <div class="options">
+                <button type="button" class="btn clear">clear</button>
+                <button class="btn add">add task</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br> 
+    <br>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="Task.js"></script>
+        <script src="/Project-Display/Main Structure/main.js"></script>
+    </body>
+</html>
